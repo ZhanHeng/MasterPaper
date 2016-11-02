@@ -1,0 +1,8 @@
+<input type="checkbox" id="SelectAll"  value="ȫѡ" onclick="selectAll();"/>
+function selectAll(){  
+    if ($("#SelectAll").attr("checked")) {  
+        $(":checkbox").attr("checked", true);  
+    } else {  
+        $(":checkbox").attr("checked", false);  
+    }  
+}
